@@ -4,3 +4,4 @@
 Hoca konuları işledikce anlık olarak güncelliyorum.
 Bir eksik veya hata varsa bana ulaşın düzeltiyim.
 Örnek kaynak: https://www.w3schools.com/
+#
