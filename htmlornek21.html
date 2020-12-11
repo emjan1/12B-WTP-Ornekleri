@@ -1,117 +1,303 @@
 <!DOCTYPE html>
-<html lang="tr">
-    <head>
-        <meta charset="UTF-8">
-        <title>WTP Örnekleri</title>
-    </head>
-    <body>
-      <form>
-            <label for="fname">First Name</label>
-                <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lname"><br>
-      </form>
-      <p>
-        <form> 
-            <label for="male">BJK</label>
-            <input type="radio" id="gs" name="takim" value="gs"><br>
-            <label for="female">GS</label>
-            <input type="radio" id="fb" name="takim" value="fb"><br>
-            <label for="female">FB</label>
-            <input type="radio" id="other" name="takim" value="other"><br>
-            <label for="other">Diğer</label>
-            <input type="radio" id="other" name="takim" value="other"><br>
-        </form>
-        <p>
-        <form> 
-            
-            <label for="male">TV</label>
-            <input type="checkbox" id="tv" name="onay1" value="tv"><br>
-            <label for="female">Radio</label>
-            <input type="checkbox" id="radio" name="onay2" value="radio"><br>
-            <label for="female">Tekne</label>
-            <input type="checkbox" id="tekne" name="onay3" value="tekne"><br>
-        </form>
-        <p>
-        <form>
-            <h1>Hobileriniz</h1>
-            <input type="checkbox" name="onay1" checked="on">İnternet<br>
-            <input type="checkbox" name="onay1">Müzik<br>
-            <input type="checkbox" name="onay1" checked="on">Spor<br>
-        </form>
-        <p>
-        <form>
-            <h3>Medeni Haliniz</h3>
-            <input type="radio" name="durum" value="1">Evli<br>
-            <input type="radio" name="durum" value="2">Bekar<br>
-            <input type="radio" name="durum" value="3">Boşanmış<br>
-            <input type="radio" name="durum" value="4">Dul<br>           
-        </form>
-        <p>
-        <form>
-            Adınız: <input type="text" name="ad" size="12" maxlength="14">
-            Soyadınız: <input type="text" name="sad" size="12" maxlength="14">
-        </form>
-        <p>
-        <table border="2">
-            <tr>
-                <td colspan="2">
-                    <table>
-                        <tr>
-                            <td>T.C. Kimlik No:</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="text" name="no" size="15" maxlength="11">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Soyadı</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="text" name="soyad" size="15" maxlength="20">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Adı:</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="text" name="ad" size="15" maxlength="20">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Baba Adı:</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="text" name="babaad" size="15" maxlength="40">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Ana Adı:</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="text" name="anaad" size="15" maxlength="40">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Doğum Tarihi:</td>
-                            <td>Doğum Yeri:</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="text" name="anaad" size="15" maxlength="40">
-                            </td>
-                            <td>
-                                <input type="text" name="anaad" size="15" maxlength="40">
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </body>
+<html>
+<head>
+	<title>HTML Form Örnekleri</title>
+</head>
+<body>
+	<h2>HTML Formları</h2>
+	<form>
+		<label for="fname">Adınız:</label><br>
+		<input type="text" id="fname" name="fname"><br>
+		<label for="lname">Soyadınız:</label><br>
+		<input type="text" id="lname" name="lname">
+	</form>
+	<p>
+	<form>
+		<input type="radio" id="bjk" name="takim" value="bjk">
+		<label for="male">BJK</label><br>
+		
+		<input type="radio" id="gs" name="takim" value="gs">
+		<label for="female">GS</label><br>
+		
+		<input type="radio" id="fb" name="takim" value="fb">
+		<label for="female">FB</label><br>
+		
+		<input type="radio" id="other" name="takim" value="other">
+		<label for="other">Diğer</label>
+	</form>
+	<p>
+	<form>
+		<input type="checkbox" id="arac1" name="arac1" value="Bisiklet">
+		<label for="arac1"> Bisiklet</label><br>
+		
+		<input type="checkbox" id="arac2" name="arac2" value="Araba">
+		<label for="arac2"> Araba</label><br>
+		
+		<input type="checkbox" id="arac3" name="arac3" value="Tekne">
+		<label for="arac3"> Tekne</label>
+	</form>	
+	<p>	
+	<form>
+		<h3>Hobileriniz</h3>
+		<input type="checkbox" name="onay1" checked="on">İnternet<br>
+		<input type="checkbox" name="onay1">Müzik<br>
+		<input type="checkbox" name="onay1" checked="on">Spor<br>
+		<input type="checkbox" name="onay1">Televizyon<br>
+	</form>
+	<p>
+	<form>
+		<h3>Medeni Haliniz</h3>
+		<input type="radio" name="durum" value="1">Evli<br>
+		<input type="radio" name="durum" value="2" checked="on">Bekar<br>
+		<input type="radio" name="durum" value="3">Boşanmış<br>
+		<input type="radio" name="durum" value="4">Dul<br>
+	</form>
+	<p>
+	<form>
+		Adınız:   <input type="text" name="ad"  size="12" maxlength="14">
+		Soyadınız:<input type="text" name="sad" size="12" maxlength="14">
+	</form>
+	<p>
+	
+	
+	
+	<table border="1" style="background:PowderBlue">
+		<tr>
+			<td colspan="2">
+				<table>
+					<tr>
+						<td>T.C. Kimlik No:</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="ad"  size="15" maxlength="14">
+						</td>
+					</tr>					
+				</table>
+			</td>	
+		</tr>
+		<tr>
+			<td colspan="2">
+				<table>
+					<tr>
+						<td>Soyadı:</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="sad"  size="15" maxlength="14">
+						</td>
+					</tr>					
+				</table>
+			</td>	
+		</tr>
+		<tr>
+			<td colspan="2">
+				<table>
+					<tr>
+						<td>Adı:</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="ad"  size="15" maxlength="14">
+						</td>
+					</tr>					
+				</table>
+			</td>	
+		</tr>
+		<tr>
+			<td colspan="2">
+				<table>
+					<tr>
+						<td>Baba Adı:</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="bad"  size="15" maxlength="14">
+						</td>
+					</tr>					
+				</table>
+			</td>	
+		</tr>
+		<tr>
+			<td colspan="2">
+				<table>
+					<tr>
+						<td>Ana Adı:</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="aad"  size="15" maxlength="14">
+						</td>
+					</tr>					
+				</table>
+			</td>	
+		</tr>
+		<tr>
+			<td>
+				<table>
+					<tr>
+						<td>Doğum Tarihi:</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="dt"  size="15" maxlength="14">
+						</td>
+					</tr>					
+				</table>
+			</td>
+			<td>
+				<table>
+					<tr>
+						<td>Doğum Yeri:</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="dy"  size="15" maxlength="14">
+						</td>
+					</tr>					
+				</table>
+			</td>
+		</tr>
+	</table>
+	<p>
+	<form>
+		Kullanıcı Adı : <input type="text"     name="kadi" size="12">
+		Parola		  : <input type="password" name="sifre" maxlength="8">
+	</form>
+	<p>
+	<form>
+		Adres:<br>
+		<textarea name="adres" rows="5" cols="35"></textarea>
+	</form>
+	<p>
+	<form>
+	Doğum Yeriniz:<br>
+	<select name="sehir">
+		<option>Adana</option>
+		<option>Adıyaman</option>
+		<option>Afyonkarahisar</option>
+		<option>Ağrı</option>
+		<option>Amasya</option>
+		<option>Ankara</option>
+	</select>
+	</form>
+	<p>
+	<form>
+		Adı   : <input type="text" name="ad"  size="15">
+		Soyadı: <input type="text" name="sad" size="15">
+		<input type="submit" value="Gönder">
+		<input type="reset"  value="Temizle">
+	</form>
+	<p>
+	
+	<form>
+	<table border="3">
+		<tr>
+			<td colspan="2">Kullanıcı Bilgileri</td>
+		</tr>
+		<tr>
+			<td>Adı</td>
+			<td>: <input type="text" name="ad"  size="15"> </td>
+		</tr>
+		<tr>
+			<td>Soyadı</td>
+			<td>: <input type="text" name="sa"  size="15"></td>
+		</tr>
+		<tr>
+			<td>Cinsiyeti</td>
+			<td>: 
+				<input type="radio" name="durum" value="1">Kadın
+				<input type="radio" name="durum" value="2">Erkek
+			</td>
+		</tr>
+		<tr>
+			<td>Doğum Yeri</td>
+			<td>:
+				<select name="sehir">
+					<option>Adana</option>
+					<option>Adıyaman</option>
+					<option>Afyonkarahisar</option>
+					<option>Ağrı</option>
+					<option>Amasya</option>
+					<option>Ankara</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Doğum Tarihi</td>
+			<td>:
+				<select name="gun">
+					<option>Gün</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+				</select>
+				<select name="ay">
+					<option>Ay</option>
+					<option>Ocak</option>
+					<option>Şubat</option>
+					<option>Mart</option>
+					<option>Nisan</option>
+					<option>Mayıs</option>
+					<option>Haziran</option>
+				</select>
+				<select name="yil">
+					<option>Yıl</option>
+					<option>2020</option>
+					<option>2019</option>
+					<option>2018</option>
+					<option>2017</option>
+					<option>2016</option>
+					<option>2015</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="submit" value="Kaydet">
+				<input type="reset"  value="Temizle">
+			</td>
+		</tr>
+	</table>
+	
+	</form>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
 </html>
