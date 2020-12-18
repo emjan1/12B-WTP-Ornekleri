@@ -1,0 +1,22 @@
+body{
+    background-color: powderblue;
+}
+h1{
+    color:blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 400%;
+}
+h2
+{
+    color:yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:100px;
+}
+p
+{
+    color:red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid darkblue;
+    margin: 100px;
+    padding: 7px;
+}
