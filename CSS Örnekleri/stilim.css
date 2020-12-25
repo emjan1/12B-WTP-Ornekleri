@@ -1,0 +1,40 @@
+/* 
+border-style içerisinde kullanılabilecek özellikler:
+
+dotted - noktalı border
+dashed - kesik çizgili border
+solid  - düz border
+double - çift çizgili border
+groove - içe doğru kabarık border
+ridge  - dışa doğru kabarık border
+inset  - içe gömülü border
+outset - dışa gömülü border
+none   - border yok
+hidden - gizli border
+
+*/
+
+.baslik 
+{
+		color: red;
+		text-align: left;
+		font-size: 32pt;
+		font-family: Georgia;	
+}
+p.noktali {border-style: dotted; padding:10px;}
+p.ilginc  {
+	border-top-style   :solid;
+	border-bottom-style:solid;
+	border-left-style  :double;
+	border-right-style :double;
+}
+p.tireli  {border-style: dashed; padding:10px;}
+p.solid   {border-style: solid; padding:10px;}
+p.double  {border-style: double; padding:10px;}
+p.groove  {border-style: groove; padding:10px;}
+p.ridge   {border-style: ridge; padding:10px;}
+p.inset   {border-style: inset; padding:10px;}
+p.outset  {border-style: outset; padding:10px;}
+p.none    {border-style: none; padding:10px;}
+p.hidden  {border-style: hidden; padding:10px;}
+p.mix     {border-style: dotted dashed solid double; padding:10px;}
