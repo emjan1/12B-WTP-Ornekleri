@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Metin İçindeki Resmin Dikey Konumunu Ayarlamak</title>
+	<style type="text/css">
+		img.yukarda {vertical-align:text-top;}
+		img.ortada  {vertical-align:middle;}
+		img.dipte 	{vertical-align:text-bottom;}
+		
+		#mySpan1{
+			background-color: red;
+			vertical-align: -50px;
+			padding: 10px;
+		}
+		#mySpan2{
+			background-color: red;
+			vertical-align: -50px;
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+	<img src="_images/cssogren.png">Deneme</img><p>
+	<img class="yukarda" src="_images/cssogren.png">Deneme</img><p>
+	<img class="ortada" src="_images/cssogren.png">Deneme</img><p>
+	<img class="dipte" src="_images/cssogren.png">Deneme</img><p>
+	
+	<p>
+	"span" Örneği 
+		<span id="mySpan1">Dikey  Hizalama - 1</span>
+		<span id="mySpan2">Dikey  Hizalama - 2</span>
+	</p>
+	<!--
+		img.baseline   {vertical-align:baseline;}
+		img.sub 	   {vertical-align:sub;}
+		img.super      {vertical-align:super;}
+		img.top        {vertical-align:top;}
+		img.texttop    {vertical-align:text-top;}
+		img.middle     {vertical-align:middle;}
+		img.bottom     {vertical-align:bottom;}
+		img.textbottom {vertical-align:text-bottom;}
+	-->	
+</body>
+</html>
